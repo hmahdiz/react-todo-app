@@ -1,0 +1,13 @@
+.todo-filter{
+    padding: 8px;
+    margin-right: 8px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.todo-filter.selected{
+    background-color: rgba(175, 47, 47, 0.15);
+    font-style: italic;
+    box-shadow: 0 6px 4px 0 rgba(0, 0, 0, 0.2), 0 42px 62px 0 rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+}
